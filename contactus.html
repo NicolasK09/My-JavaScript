@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel WebSite Final Project</title>
+  <link rel="icon" type="image/x-icon" href="IMG/download(8).png">
+
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="rooms.html">
+  <link rel="stylesheet" href="services.html">
+  <link rel="stylesheet" href="index.html">
+  <link rel="stylesheet" href="CSS/media.css">
+  <link rel="stylesheet" href="CSS/mediamob.css">
+</head>
+
+<body>
+  <header>
+    <h1>Hotel Perfect Holidays ⭐ ⭐ ⭐ ⭐ </h1>
+  
+    <div class="burger-container">
+      <div class="burger-icon"></div>
+      <div class="burger-icon1"></div>
+      <div class="burger-icon2"></div>
+      <ul class="burger-menu">
+        <li>
+          <a href="index.html">Principal Page</a></li>
+        <li>
+          <a href="rooms.html">Rooms</a></li>
+        <li>
+          <a href="services.html">Services</a></li>
+      <li>
+          <a href="contactus.html">Contact Us</a></li>
+    </ul>
+    </div>
+
+  </header>
+  
+  <div id="cookies-notification">
+    <p>This website uses cookies. By clicking "Accept", you consent to the use of cookies.</p>
+    <button id="accept-cookies">Accept</button>
+</div>
+<div class="slider">
+  <div class="slides-container">
+    <div class="slide">Location: Barcelona, Spain: Sagrada Familia 15 st.</div>
+    <div class="slide">E-mail: example@gmail.com</div>
+    <div class="slide">Telephone Number: +34 666 666 666</div>
+  </div>
+  <button class="prev-btn">Previous slide</button>
+  <button class="next-btn">Next slide</button>
+</div>
+ <button id="my-button">Click Me</button>
+
+
+ <section id="hero">
+
+
+  <form id="myForm">
+    <input type="email" id="email" placeholder="E-mail"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <textarea id="textarea" placeholder="Text"></textarea><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female">Female
+   <br>
+    <input type="checkbox" id="checkbox"> I agree to the website rules
+    <br>
+    <button type="button" onclick="validateForm()">Validate</button>
+</form>
+<p id="validationResult"></p>
+
+ </section>
+  
+ <script src="./node_modules/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+  <footer>All rights reserved &copy; 2023 Hotel</footer>
+</body>
+
+</html>

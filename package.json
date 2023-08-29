@@ -1,0 +1,17 @@
+{
+  "name": "final-project-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server -w server/server.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "json-server": "^0.17.3",
+    "production": "^0.0.2"
+  }
+}

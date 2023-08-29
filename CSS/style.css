@@ -1,0 +1,208 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+ }
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  margin-left: -120px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+#hero {
+  background-image: url(../IMG/thumb-1920-372649.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+#rooms {
+  padding: 20px;
+}
+
+.room {
+  display: inline-block;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.room img {
+  width: 100%;
+}
+
+
+#services {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h2{
+  margin-top: 20px;
+}
+
+
+
+.slider {
+  background-color: #1fdcf5;
+  overflow: hidden;
+}
+
+.slides-container {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slide {
+  width: 100%;
+  min-width: 100%;
+}
+
+.prev-btn,
+.next-btn {
+  margin-top: 10px;
+}
+.burger-container {
+  position: relative;
+  margin-left: -110px;
+  margin-top: 10px;
+}
+
+.burger-icon {
+  width: 40px;
+  height: 4px;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.burger-icon1 {
+  width: 40px;
+  height: 4px;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.burger-icon2{
+  width: 40px;
+  height: 4px;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+
+.burger-menu {
+  display: none;
+  position: absolute;
+  margin-top: 275px;
+  margin-right: 500px;
+  padding: 10px;
+  background-color: #b6faa1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+}
+
+.burger-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.burger-menu li {
+  margin-bottom: 10px;
+  color: #000;
+}
+
+
+.burger-icon.active {
+  transform: rotate(45deg);
+}
+
+.burger-menu.show {
+  display: block;
+  animation: slideIn 0.3s ease forwards;
+}
+
+.burger-menu.show {
+  display: block;
+  animation: slideIn 0.3s ease forwards;
+}
+
+
+.accordion {
+  border: 1px solid #ccc;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+  background-color: #f5f5f5;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion-content p {
+  margin: 0;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+  background-color: bisque;
+}

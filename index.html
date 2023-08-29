@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel WebSite Final Project</title>
+  <link rel="icon" type="image/x-icon" href="IMG/download(8).png">
+
+
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="rooms.html">
+  <link rel="stylesheet" href="services.html">
+  <link rel="stylesheet" href="contactus.html">
+  <link rel="stylesheet" href="CSS/media.css">
+  <link rel="stylesheet" href="CSS/mediamob.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hotel Perfect Holidays ⭐ ⭐ ⭐ ⭐ </h1>
+
+    <div class="burger-container">
+      <div class="burger-icon"></div>
+      <div class="burger-icon1"></div>
+      <div class="burger-icon2"></div>
+      <ul class="burger-menu">
+        <li>
+          <a href="index.html">Principal Page</a></li>
+        <li>
+          <a href="rooms.html">Rooms</a></li>
+        <li>
+          <a href="services.html">Services</a></li>
+      <li>
+          <a href="contactus.html">Contact Us</a></li>
+    </ul>
+    </div>
+
+  </header>
+  
+  <div class="slider">
+    <div class="slides-container">
+      <div class="slide">Location: Barcelona, Spain: Sagrada Familia 15 st.</div>
+      <div class="slide">E-mail: example@gmail.com</div>
+      <div class="slide">Telephone Number: +34 666 666 666</div>
+    </div>
+    <button class="prev-btn">Previous slide</button>
+    <button class="next-btn">Next slide</button>
+  </div>
+  
+  <select id="multiselect" multiple>
+    <option value="option1"> How to contact with us?</option>
+    <option value="option2"> Option 1: Click on the burger bar and select the option contact us</option>
+    <option value="option3">Option 2: You have slides where you have information about our telephone...</option>
+  </select>
+
+  <input type="text" id="todoInput" />
+  <button onclick="addTodo()">Add To do</button>
+  <ul id="todoList"></ul>
+
+  <button id="my-button">Click Me</button>
+  <section id="hero">
+    <div class="hero-content">
+      <div id="cookies-notification">
+        <p>This website uses cookies. By clicking "Accept", you consent to the use of cookies.</p>
+        <button id="accept-cookies">Accept</button>
+    </div>
+    
+      <h2>WELCOME TO OUR HOTEL!!!</h2>
+      <p>Enjoy your holiday days with us</p>
+      <a href="rooms.html" class="cta-button">Book a Room now</a>
+    </div>
+  </section>
+
+  <section id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="room">
+      <img src="IMG/download(4).jpg" alt="Room 1">
+      <h3>Standard Room</h3>
+      <p>One room with all necessary thing for you</p>
+    </div>
+    <div class="room">
+      <img src="IMG/luxury-hotel-room-bedroom-furniture-set-wallpaper-preview.jpg" alt="Room 2">
+      <h3>Premium Room</h3>
+      <p>One room with very good views</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Swimming Pool</li>
+      <li>Restaurant of high level Chefs</li>
+      <li>Room Service 24/7</li>
+    </ul>
+  </section>
+   
+
+  <footer>
+    <p>All rights reserved &copy; 2023 Hotel</p>
+  </footer>
+  
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
